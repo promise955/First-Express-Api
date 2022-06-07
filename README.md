@@ -1,2 +1,2 @@
 # React-api
-Create your backend api with express
+npm run dev to start the express server
