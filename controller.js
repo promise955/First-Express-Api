@@ -2,9 +2,16 @@ const users = require("./data");
 
 
 const getAll = async(req,res) => {
-        const names = users.map(user => user.name)
+        try {
+            const names = users.map(user => user.name)
         res.send(names)  
-
+        
+        }
+        catch(error){
+             console.log(error)
+        
+        }
+  
 }
 const getOne = async(req,res) => {
     const name = req.params.name
