@@ -40,11 +40,6 @@ const add  = async(req,res) => {
 
 
 
-
-
-
-
-
 module.exports = {
     getAll,getOne,Delete,add,update
 }
