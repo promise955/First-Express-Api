@@ -15,7 +15,7 @@ const users = [
     },  {
         id :4,
         name :"Tims",
-        age : 16
+        age : 14
     },
 ]
 module.exports = users
